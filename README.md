@@ -57,6 +57,8 @@ Each component is designed for **sequence modeling efficiency**, **temporal patt
 
 Our synthetic time series combines realistic temporal components specifically designed to challenge RNN/LSTM pattern recognition capabilities:
 
+![Generated Time Series Dataset](generated_time_series.png)
+
 ### **Data Characteristics:**
 - **Source:** Realistic synthetic time series with multiple temporal components
 - **Time Span:** 4+ years of daily observations (1461 data points)
@@ -242,9 +244,13 @@ def adjust_learning_rate(model):
 2. **Identify Sweet Spot:** Where loss decreases most rapidly
 3. **Select Rate:** Typically around 1e-4 to 1e-5 for stable convergence
 
+![Loss vs. Learning Rate & Training Loss Curve](training_loss_merged.png)
+
 ---
 
 ## Results & Performance 📊
+
+![Predicted versus true values](forecast_vs_actual.png)
 
 ### Training Performance
 - **Target MAE:** ≤ 4.5 on validation set (assignment requirement)
