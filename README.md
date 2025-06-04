@@ -180,7 +180,7 @@ def create_uncompiled_model():
 - **Scalability:** Easy to extend with additional layers or LSTM units
 - **Performance:** Achieves target MAE ≤ 4.5 on validation data
 
-![Neural Network Architecture](rnn_architecture_diagram.png)
+![Neural Network Architecture](rnn_architecture.png)
 
 ---
 
